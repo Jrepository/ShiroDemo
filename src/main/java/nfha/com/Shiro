@@ -1,2 +1,31 @@
 Shiro：
 	1.jar包：shiro-core
+	
+
+
+
+https://www.cnblogs.com/nuccch/p/6775855.html
+
+1. 在独立应用中使用shiro
+http://www.cnblogs.com/nuccch/p/6780550.html 细说shiro之三：在独立应用中使用shiro
+
+2. 在web应用中使用shiro
+http://www.cnblogs.com/nuccch/p/6785167.html 细说shiro之四：在web应用中使用shiro
+
+3. 在spring框架中集成shiro
+http://www.cnblogs.com/nuccch/p/6790408.html 细说shiro之五：在spring框架中集成shiro
+
+https://www.cnblogs.com/zhouguanglin/archive/2018/02/27/8477807.html
+shiro认证与授权的在Web中实现
+第一步：添加jar包:shiro-core,shiro-spring
+第二步：配置web.xml:DelegatingFilterProxy
+第三步：自定义Realm 继承AuthorizingRealm 重写  AuthorizationInfo（授权） 和  AuthenticationInfo（认证）
+第四步：配置spring-shiro.xml
+第五步：在spring-mvc.xml中配置权限的控制 异常的跳转
+第六步：在controller中测试使用的验证登入
+
+
+shiro访问授权有3种实现方式：api调用，java注解，jsp标签。
+
+
+使用jdbcReam时用到的jar包：mysql-connector-java
